@@ -179,6 +179,7 @@ padding-bottom: 70px;
 }
 .faq h1{
 padding: 50px;
+border :0;
 }
 .faq ul{
     display: flex;
@@ -195,4 +196,35 @@ padding: 50px;
     font-size:26px;
     margin-bottom: 10px;
     
+}
+
+
+footer {
+    background-color: black;
+    position: relative;
+    margin-top: 70px;
+}
+.footer {
+    width:50%;
+    display :flex;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    
+}
+.footer h2 {
+    color:red;
+    margin-right: 20px;
+    color:rgb(166, 166, 200);
+    font-size: 1rem;
+}
+.footer h3 {
+    color:rgb(166, 166, 166);
+    margin: 10px;
+    font-size: 13px;
+}
+.footer h4{
+    font-size:0.8rem;
+    margin: 10px;
+    color:rgb(166, 166, 166);
+
 }
