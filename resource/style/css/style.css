@@ -4,6 +4,9 @@
     color:white;
     list-style: none;
     font-family: sans-serif;
+    
+}
+body{
     background-color: black;
 }
 h1{
@@ -183,7 +186,7 @@ a{
 .animation2{
     position: absolute;
     top:9%;
-    right:15.5%;
+    right:15.6%;
     
 }
 .faq{
