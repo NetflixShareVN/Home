@@ -7,6 +7,34 @@
     </head>
     
     <body>
+        
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="107676543956000"
+  theme_color="#fa3c4c"
+  logged_in_greeting="Chào bạn! Bạn muốn đăng ký xem Netflix à?"
+  logged_out_greeting="Chào bạn! Bạn muốn đăng ký xem Netflix à?">
+      </div>
+        
         <div class = "wrap">
             
             <div class = "header-wrap">   
@@ -108,6 +136,7 @@
                     <li>cach dang ky tai khoan</li>
                     
                 </ul>
+                
                     <h2 id = "button">ĐĂNG KÝ NGAY    </h2>
             
             </div>
@@ -142,6 +171,10 @@
                         <h3>Phim bộ Trung quốc</h3>
                         <h3>Tv-Series</h3>
                    </div>
+                   <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FH%E1%BB%99i-Nh%E1%BB%AFng-Ng%C6%B0%E1%BB%9Di-Th%C3%ADch-Xem-Phim-Tr%C3%AAn-Netflix-107676543956000%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                   
+                   
+                   
                 </div>
             </footer>
         
