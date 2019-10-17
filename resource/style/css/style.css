@@ -95,7 +95,7 @@ a{
     margin-bottom: 35px;
 }
 /* nut dang ky ngay trong header content */
-#button {
+.header-content a #button {
     font-size: 26px;
     background-color:red;
     padding: 1rem 2rem;
