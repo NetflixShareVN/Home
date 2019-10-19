@@ -79,7 +79,69 @@ a{
 .wrap-noheader{
     top:4.8rem;
     position: relative;
+    text-align: center;
 }
+.wrap-noheader h1 {
+    padding: 50px;
+}
+
+.quytrinhdangky-wrap{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img {
+    background-color: white;
+    width :400px;
+    height:400px;
+    border: 1px solid blue;
+}
+.flex {
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.flex h2{
+    margin:0 auto;
+}
+
+
+.giaimg{
+    
+}
+
+.ptthanhtoanimg{
+    background-image: url(../../image/1016_Netflix_MediaCenter_StreamingDevices_iPhone7_RGB.png);
+    background-size: cover
+}
+
+.bienlaiimg{
+    
+}
+
+.nhantaikhoanimg{
+    
+}
+
+
+.loginnetfliximg{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: black;
