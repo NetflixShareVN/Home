@@ -77,9 +77,63 @@ a{
 
 
 .wrap-noheader{
+    margin: 0 auto;
     top:4.8rem;
+    width:80%;
     position: relative;
+    text-align: center;
 }
+.anhnetflix{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.anhnetflix img {
+
+width: 200px;
+height: 200px;
+object-fit:cover;
+margin: 10px;
+    transition: transform .2s;
+    
+}
+.anhnetflix img:hover{
+   border: 1px solid white;
+    transform: scale(2.5);
+}
+.all-anh h1 {
+    
+}
+#title{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: black;
