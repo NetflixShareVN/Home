@@ -10,6 +10,32 @@
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="107676543956000"
+  theme_color="#fa3c4c"
+  logged_in_greeting="Chào bạn! Bạn muốn đăng ký xem Netflix à?"
+  logged_out_greeting="Chào bạn! Bạn muốn đăng ký xem Netflix à?">
+      </div>
 	<div class = "wrap">
             
             <div class = "header-wrap">   
@@ -43,7 +69,7 @@
                 <div class = "flex">
                     <div class = "img ptthanhtoanimg"></div>
                     <h2>
-                        <span class ="titleh2">2.Phương thức thanh toán</span>
+                        <span class ="titleh2">2.Phương thức thanh toán</span><br>
                         1.STK Vietcombank hoan kiem: <span style="font-size:1.2rem;color: red;">0011004247280</span><br>
                         Tên chủ tk: <span style="font-size:1.2rem;color: red;">nguyen ba viet tung</span><br><br>
                         2.Momo , Zalo pay , Viettel pay , AirPay:<span style="font-size:1.2rem;color: red;"> 0338211168</span><br>
@@ -87,35 +113,38 @@
                 
             <h3> Netflix Premium Vn giá rẻ, chất lượng 4K UltraHD, 1080p FullHD HDR chuẩn quốc tế</h3>  
             
+            <h2><a href="dangky.html" id = "button">ĐĂNG KÝ NGAY </a></h2>
+            
+            
+            
             <footer>
                <div class = "footer" >
                     <div id = "phimmoi">
                         <h2>Phim Mới</h2>
-                        <a href="" title="Netflix-phim-moi">Phim lẻ mới Netflix</a>
-                        <a href="" title="Netflix-bo-moi">Phim bộ mới Netflix</a>
-                        <a href="" title="Netflix-phim-rap">Phim rạp mới Netflix</a>
-                        <a href="" title="Netflix-oscar">Phim kinh điển Netflix</a>
+                        <a href="https://www.netflix.com/browse/new-release" title="Netflix-phim-moi">Phim lẻ mới Netflix</a>
+                        <a href="https://www.netflix.com/browse/genre/2237308" title="Netflix-bo-moi">Phim bộ mới Netflix</a>
+                        <a href="https://www.netflix.com/browse/genre/90176" title="Netflix-phim-rap">Phim rạp mới Netflix</a>
+                        <a href="https://www.netflix.com/browse/genre/1189243" title="Netflix-oscar">Phim kinh điển Netflix</a>
                         <br>
-                        <br>
-                        <br>
-                        <a href="" title="Netflix-sahre-vn">Netflix Share Vn</a>
+                        <a href="https://findmm.github.io/Netflix-Share-Vn/" title="Netflix-sahre-vn">Netflix Share Vn</a>
                         <a>all rights reserved to netflix, inc<br>this website made for study purpose</a>
                         
                     </div>
                    <div id = "phimle">
                        <h2>Phim Lẻ-MOVIES</h2>
-                       <a href="" title="Netflix-hanh-dong">Hành động Netflix</a>
-                       <a href="" title="Netflix-kiem-hiep">Kiếm hiệp Netflix</a>
-                       <a href="" title="Netflix-kinh-di">Kinh dị Netflix</a>
-                       <a href="" title="Netflix-vien-tuong">Viễn tưởng Netflix</a>
-                       <a href="" title="Netflix-hoat-hinh">Hoạt Hình Netflix</a>
+                       <a href="https://www.netflix.com/browse/genre/1365" title="Netflix-hanh-dong">Hành động Netflix</a>
+                       <a href="https://www.netflix.com/browse/genre/8985" title="Netflix-kiem-hiep">Kiếm hiệp Netflix</a>
+                       <a href="https://www.netflix.com/browse/genre/1302325" title="Netflix-kinh-di">Kinh dị Netflix</a>
+                       <a href="https://www.netflix.com/browse/genre/1372" title="Netflix-vien-tuong">Viễn tưởng Netflix</a>
+                       <a href="https://www.netflix.com/vn/browse/genre/27346" title="Netflix-hoat-hinh">Hoạt Hình Netflix</a>
                    </div>
                     <div id = "phimbo">
                         <h2>Phim Bộ TV-Series</h2>
-                        <a href="" title="Netflix-han">Phim bộ Hàn Quốc</a>
-                        <a href="" title="Netflix-my">Phim bộ Mỹ</a>
-                        <a href="" title="Netflix-trung-quoc">Phim bộ Trung quốc</a>
-                        <a href="" title="Netflix-series">Tv-Series</a>
+                        <a href="https://www.netflix.com/browse/similars/80168068" title="Netflix-han">Phim bộ Hàn Quốc</a>
+                        <a href="https://www.netflix.com/browse/genre/1193086" title="Netflix-my">Phim bộ Mỹ</a>
+                        <a href="https://www.netflix.com/browse/genre/80353" title="Netflix-trung-quoc">Phim bộ Trung quốc</a>
+                        <a href="https://www.netflix.com/browse/genre/6721" title="Netflix-anime">Netflix Anime</a>
+                        <a href="https://www.netflix.com/vn-en/browse/genre/83" title="Netflix-series">Tv-Series</a>
                    </div>
                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FH%E1%BB%99i-Nh%E1%BB%AFng-Ng%C6%B0%E1%BB%9Di-Th%C3%ADch-Xem-Phim-Tr%C3%AAn-Netflix-107676543956000%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                    

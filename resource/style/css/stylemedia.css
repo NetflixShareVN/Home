@@ -56,7 +56,14 @@ a{
     font-size:1.2rem;
     
 }
-
+.header ul li a:hover{
+    
+    text-decoration: underline;
+      text-shadow: 2px 2px 20px white;
+    transition-property: white;
+  transition-duration: 2s;
+    
+}
 
 
 /*red button*/

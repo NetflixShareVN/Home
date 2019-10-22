@@ -57,7 +57,14 @@ a{
     
 }
 
-
+.header ul li a:hover{
+    
+    text-decoration: underline;
+      text-shadow: 2px 2px 20px white;
+    transition-property: white;
+  transition-duration: 2s;
+    
+}
 
 /*red button*/
 
@@ -87,7 +94,7 @@ a{
 }
 
 .quytrinhdangky-wrap{
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     padding-bottom: 70px;
 }
@@ -101,8 +108,11 @@ align-items: center;
 flex-wrap: wrap-reverse;
 margin-bottom: 20px;
 border-bottom: 3px solid grey;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 30px;
 padding :20px;
 }
+
 .flex a{
     color: red;
 }
@@ -162,8 +172,21 @@ padding :20px;
 }
 
 
-
-
+.wrap-noheader h3 {
+    margin: 40px 30px;
+}
+#button {
+    
+   
+    font-size: 26px;
+    background-color:red;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size : 1.5rem;
+    border-radius:5px;
+    width: 15rem;
+    margin:0 auto;
+}
 
 
 
