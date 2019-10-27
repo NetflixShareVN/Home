@@ -98,16 +98,17 @@ a{
 }
 .anhnetflix img {
 
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 object-fit:cover;
-margin: 10px;
-    transition: transform .2s;
+margin: 30px;
+transition: transform .2s;
     
 }
 .anhnetflix img:hover{
-   border: 1px solid white;
-    transform: scale(2.5);
+border: 1px solid white;
+transform: scale(2);
+
 }
 .all-anh h1 {
     

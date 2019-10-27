@@ -208,10 +208,17 @@ a{
 .animation2{
     position: absolute;
     top:9%;
-    right:15.6%;
+    right:15%;
     
 }
-
+@media only screen and (max-width : 480px){
+    .animation2 {
+        position: absolute;
+        top:9%;
+        right: 17%;
+    }
+    
+}
 
 /*faq*/
 .faq{
@@ -229,7 +236,7 @@ border :0;
 }
 .faq ul{
     margin-bottom: 50px;
-    width: 60%;
+    width: 80%;
     margin:0 auto;
     display: flex;
     flex-direction: column;
@@ -238,7 +245,7 @@ border :0;
 
 .faq ul li{
     padding: 10px;
-    background-color: rgb(48, 48, 48);;
+    background-color: rgb(48, 48, 48);
     width:50%;
     text-align: center;
     
@@ -279,6 +286,7 @@ border :0;
 */
 table{
     margin-top: 8px;
+   
     
 }
 td{
@@ -286,7 +294,11 @@ td{
     padding:3px;
     text-align: center
 }
-
+@media only screen and (max-width :480px){
+    table{
+         background-color:rgb(48, 48, 48);
+    }
+}
 /*footer*/
 footer {
     background-color: black;
@@ -295,7 +307,7 @@ footer {
     
 }
 .footer {
-    width:50%;
+    width:70%;
     display :flex;
     margin: 0px auto;
     padding: 70px;
