@@ -106,7 +106,7 @@ a{
 .textSpotify h2{
     padding: 15px 0;
 }
-.textSpotify h3{
+.textSpotify h3 a{
     padding: 15px 10px;
     width: 10rem;
     border-radius: 5px;
@@ -125,7 +125,7 @@ a{
 }
 
 
-.imgspotify h3 {
+.imgspotify h3 a{
     padding: 15px 10px;
     width: 10rem;
     border-radius: 5px;
