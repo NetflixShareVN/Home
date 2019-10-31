@@ -143,16 +143,17 @@ transform: scale(2);
 
 
 
+/*footer*/
 footer {
     background-color: black;
+    position: relative;
+    margin-top: 70px;
     
-    
-
 }
 .footer {
-    width:70%;
+    width: 50%;
+    margin: 0 auto;
     display :flex;
-    margin: 0px auto;
     padding: 70px;
     border-bottom: 1px solid grey;
     
@@ -162,12 +163,15 @@ footer {
     margin-right: 20px;
     color:rgb(166, 166, 200);
     font-size: 1rem;
+    text-align: left;
+    
 }
 .footer a {
     color:rgb(166, 166, 166);
     margin: 10px 0;
     font-size: 13px;
     display: block;
+    text-align: left;
 }
 .keyword{
     font-size:13px;

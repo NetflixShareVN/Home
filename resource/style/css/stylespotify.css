@@ -112,16 +112,19 @@ a{
     border-radius: 5px;
     border: 1px solid green;
     background-color: forestgreen;
-    
+    line-height: 3;
+    margin-left: 1rem;
 }
 
     
 
 .imgspotify img {
-    width: 100%;
-  height: 100%;
+    width: 80%;
+  height: auto;
   object-fit: contain;
     padding-bottom: 30px;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 
@@ -132,6 +135,7 @@ a{
     border: 1px solid green;
     background-color: forestgreen;
     margin:30px auto;
+    margin-left: 1rem;
     
 }
 
@@ -153,16 +157,17 @@ a{
 
 
 
+/*footer*/
 footer {
     background-color: black;
+    position: relative;
+    margin-top: 70px;
     
-    
-
 }
 .footer {
-    
+    width: 50%;
+    margin: 0 auto;
     display :flex;
-    margin: 0px auto;
     padding: 70px;
     border-bottom: 1px solid grey;
     
