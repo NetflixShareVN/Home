@@ -119,12 +119,12 @@ a{
     
 
 .imgspotify img {
-    width: 80%;
+    width: 90%;
   height: auto;
   object-fit: contain;
     padding-bottom: 30px;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -177,12 +177,14 @@ footer {
     margin-right: 20px;
     color:rgb(166, 166, 200);
     font-size: 1rem;
+    margin-left: 30px;
 }
 .footer a {
     color:rgb(166, 166, 166);
     margin: 10px 0;
     font-size: 13px;
     display: block;
+    margin-left: 30px;
 }
 .keyword{
     font-size:13px;
