@@ -42,15 +42,14 @@ a{
 
 .header ul li a{
     padding: 1.8rem;
-    font-size:3rem; 
+    font-size:3rem; }
     
-}
     .header{
     background-color: black;
-    height: 8rem;
-    }
-}  
-
+    height: 8rem;}
+ 
+    
+}
 
 /* Header*/
 .header-wrap {
@@ -362,4 +361,9 @@ footer {
 }
 .keyword a{
     color:rgb(166, 166, 166);
+}
+@media only screen and (max-width: 800px){
+    .footer{
+        width:90%;
+    }
 }
