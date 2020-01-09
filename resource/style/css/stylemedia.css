@@ -68,13 +68,14 @@ a{
 
 /*red button*/
 
-.redbutton{
+#redbutton{
     background-color:red;
     padding: 7px 17px;
     font-weight: 600;
     font-size : 1rem;
         border-radius:5px;
         text-decoration: none;
+    display: block;
 
 
 }

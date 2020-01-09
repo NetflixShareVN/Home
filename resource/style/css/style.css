@@ -17,6 +17,7 @@ h5{
 }
 a{
     text-decoration: none;
+    color: white !important;
 }
 .fas {
     margin:3px
@@ -123,11 +124,20 @@ a{
     background-size: cover;
     border-bottom: 8px rgb(34, 34, 34) solid;
     
+    
+    
+    
+
 }
 
 .header-content{
-    padding:70px;
+    padding: 16rem 5rem;
+      background: rgba(0, 0, 0,0.65);
+
+    
+       
 }
+
 .header-content h1,iframe,h2{
     margin-bottom: 35px;
 }
@@ -324,8 +334,8 @@ td{
 footer {
     background-color: black;
     position: relative;
-    margin-top: 90px;
-    border-bottom: 8px rgb(34, 34, 34) solid;
+    margin-top: 2rem;
+    border-top: 8px rgb(34, 34, 34) solid;
     padding-top:30px;
     
 }
