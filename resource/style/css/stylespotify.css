@@ -169,7 +169,7 @@ footer {
     
 }
 .footer {
-    width:35%;
+    width:60%;
     margin: 0 auto;
     display :flex;
     border-bottom: 1px solid grey;
